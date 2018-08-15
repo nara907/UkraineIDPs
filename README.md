@@ -20,20 +20,24 @@ The interactive map is hosted online as a Shiny app. This was created by integra
 The R script pulls in data from Github and Google Drive in order to create the map. The shapefiles of the administrative boundaries, the contact line and the logos are stored as a package on Github. The package can then be installed and used just as packages on CRAN. The IDP data is stored in a Google Sheet. This allows for a new column to be added the spreadsheet everytime there is new monthly data. The Rcode pulls the information displayed in the map from the google sheet using the Google API. This remote storage of data and automation allows the application to not require data from a local source and easy map updating by non-R-users.
 
 
-| Packages used in R: |  |
-|-----+-------|
-| shiny  |  |
-| leaflet  |  |
-| highcharter  |  |
-| devtools  |  |
-| rgdal  |  |
-| ggplot2  |  |
-| rmapshaper  |  |
-| IDPukr (Github Package)  |  |
-| googlesheets  |  |
-| dplyr  |  |
-| geosphere  |  |
 
+```
+Packages used in R:
+
+* shiny 
+* leaflet
+* highcharter
+* devtools 
+* rgdal 
+* ggplot2
+* IDPukr (Github Package)
+* rmapshaper
+* googlesheets
+* leaflet
+* dplyr
+* geosphere
+
+```
 
 
 
